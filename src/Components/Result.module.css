@@ -1,0 +1,37 @@
+.Result{
+    width: 33.333%;
+    flex-direction: column;
+    display: flex;
+    max-width: 200px;
+    /*margin-left: 92px;
+    margin-right: 0px;*/
+    margin: 8px;
+
+
+    
+}
+
+.H3{
+    color: white;
+    background: #445565;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 10px;
+    transition: 0.4s ease-out;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.MovieImage:hover + H3{
+    background-color: white;
+    color: #34282d;
+  
+}
+
+.MovieImage{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    flex: 1 1 100%;
+ 
+}

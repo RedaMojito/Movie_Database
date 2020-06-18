@@ -1,0 +1,13 @@
+.Results{
+
+    flex-wrap: wrap;
+    margin: 15px -15px;
+    display: flex;
+   align-items: center;
+   align-content: center;
+   margin-left: 90px;
+   margin-right: 20px;
+   align-items: stretch;
+
+
+}

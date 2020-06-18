@@ -1,0 +1,25 @@
+.Nav{
+    width: 100wh;
+    color: white;
+    border-bottom-color:  #9B373A;
+    border-width: thin;
+    border-bottom-style: solid;
+
+}
+
+.ul{
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+  
+    width: 100%;
+
+
+}
+
+.li{
+    margin: 0 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.root{
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+.Main{
+   margin: 1.5em;
+   
+}
+.container{
+    display: flex;
+
+}
+.img{
+   
+    height: 600px;
+    margin-left: 1.5em;
+    border-radius: 3px;
+    margin-bottom: 2em;
+}
+
+.About{
+    
+    border: thin solid #9B373A;
+    padding: 1em;
+    margin-bottom: 10em;
+    color: white;
+}

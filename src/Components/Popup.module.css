@@ -1,0 +1,78 @@
+.Popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #445565;
+    overflow-y: scroll;
+  
+}
+
+.PopupChild1{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 25px;
+}
+.PopupChild2{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 15px;
+}
+
+.img{
+    flex: 1 1 50%;
+    max-width: 200px;
+}
+.Rating{
+    margin-top: 0px;
+    margin-bottom:30px;
+    text-align: left;
+    margin-left: 18px;
+    color: white;
+}
+.h2{
+    font-size: 28px;
+    font-weight: 600;
+   margin-left: 10px;
+   text-align: left;
+   margin-bottom: 0px;
+   color: white;
+}
+
+.span{
+ font-weight: 300;
+ font-size: 20px;
+ color: white;
+}
+
+.Plot{
+    flex: 1 1 50%;
+    margin: 5px 20px;
+    text-align: justify;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+.button{
+    box-sizing: border-box;
+    background-color: brown;
+    border-radius: 2px;
+    padding: 10px 15px;
+    display: flex;
+    margin: 15px;
+    font-size: medium;
+    outline: none;
+    color:white;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: brown;
+    background-color: white;
+    transition: 0.2s ease-out;
+}
